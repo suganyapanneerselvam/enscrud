@@ -1,19 +1,17 @@
 package db
 
 import (
-	"log"
-
+	"github.com/EnsurityTechnologies/logger"
 	"gorm.io/driver/sqlite"
 	"gorm.io/gorm"
 )
 
-var DB *gorm.DB
-
-func Connect() {
-	var err error
-	DB, err = gorm.Open(sqlite.Open("crud.db"), &gorm.Config{})
+func OpenDB(log logger.Logger) (*gorm.DB, error) {
+	db, err := gorm.Open(sqlite.Open("crud.db"), &gorm.Config{})
 	if err != nil {
-		log.Fatal("Failed to connect database:", err)
+		log.Error("Failed to connect database:", "err", err)
+		return nil, err
 	}
-	log.Println("Database connected")
+	log.Info("DB Opened")
+	return db, nil
 }

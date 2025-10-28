@@ -1,38 +1,46 @@
 package main
 
 import (
-	"fmt"
-	"log"
+	"encoding/json"
+	"ensweb_crud_demo/app"
+	"os"
+	"os/signal"
+	"syscall"
 
-	"ensweb_crud_demo/db"
-	"ensweb_crud_demo/handler"
-	"github.com/EnsurityTechnologies/config"
 	"github.com/EnsurityTechnologies/ensweb"
 	"github.com/EnsurityTechnologies/logger"
 )
 
 func main() {
-	db.Connect()
 
-	cfg, err := config.LoadConfig("config.json")
+	log := logger.NewDefaultLog(nil, "enscrud", logger.Debug, "./logs/", 10)
+
+	rd, err := os.ReadFile("config.json")
 	if err != nil {
-		log.Fatal("Failed to load config:", err)
+		log.Error("Failed to load config", "err", err)
+		return
 	}
 
-	appLogger := logger.New(&logger.LoggerOptions{
-		Name: "ensweb_crud_demo",
-	})
+	var cfg ensweb.Config
 
-	server, err := ensweb.NewServer(cfg, nil, appLogger)
+	err = json.Unmarshal(rd, &cfg)
+
 	if err != nil {
-		log.Fatal("Failed to create server:", err)
+		log.Error("Failed to unmarshal config", "err", err)
+		return
 	}
 
-	server.AddRoute("/users", "GET", handler.GetUsers)
-	server.AddRoute("/users/add", "POST", handler.AddUser)
-	server.AddRoute("/users/update", "PUT", handler.UpdateUser)
-	server.AddRoute("/users/delete", "DELETE", handler.DeleteUser)
+	a, err := app.NewApp(&cfg, log)
+	if err != nil {
+		log.Error("failed to create the app", "err", err)
+		return
+	}
+	go a.Run()
+	c := make(chan os.Signal, 1)
+	signal.Notify(c, syscall.SIGTERM)
+	signal.Notify(c, syscall.SIGINT)
 
-	fmt.Println(" Server running on http://localhost:8080")
-	server.Start()
+	<-c
+	a.Stop()
+	log.Info("Shutting down...")
 }
