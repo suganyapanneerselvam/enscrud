@@ -1,0 +1,93 @@
+2025-10-29T11:20:35.593+0530 [ERROR] enscrud: Failed to connect database:: err="Binary was compiled with 'CGO_ENABLED=0', go-sqlite3 requires cgo to work. This is a stub"
+2025-10-29T11:20:35.593+0530 [ERROR] enscrud: Failed to open db: EXTRA_VALUE_AT_END="Binary was compiled with 'CGO_ENABLED=0', go-sqlite3 requires cgo to work. This is a stub"
+2025-10-29T11:20:35.594+0530 [ERROR] enscrud: failed to create the app: err="Binary was compiled with 'CGO_ENABLED=0', go-sqlite3 requires cgo to work. This is a stub"
+2025-10-29T11:27:50.527+0530 [ERROR] enscrud: Failed to connect database:: err="Binary was compiled with 'CGO_ENABLED=0', go-sqlite3 requires cgo to work. This is a stub"
+2025-10-29T11:27:50.527+0530 [ERROR] enscrud: Failed to open db: EXTRA_VALUE_AT_END="Binary was compiled with 'CGO_ENABLED=0', go-sqlite3 requires cgo to work. This is a stub"
+2025-10-29T11:27:50.567+0530 [ERROR] enscrud: failed to create the app: err="Binary was compiled with 'CGO_ENABLED=0', go-sqlite3 requires cgo to work. This is a stub"
+2025-10-29T11:30:32.068+0530 [ERROR] enscrud: Failed to connect database:: err="Binary was compiled with 'CGO_ENABLED=0', go-sqlite3 requires cgo to work. This is a stub"
+2025-10-29T11:30:32.068+0530 [ERROR] enscrud: Failed to open db: EXTRA_VALUE_AT_END="Binary was compiled with 'CGO_ENABLED=0', go-sqlite3 requires cgo to work. This is a stub"
+2025-10-29T11:30:32.068+0530 [ERROR] enscrud: failed to create the app: err="Binary was compiled with 'CGO_ENABLED=0', go-sqlite3 requires cgo to work. This is a stub"
+2025-10-29T11:30:37.109+0530 [ERROR] enscrud: Failed to connect database:: err="Binary was compiled with 'CGO_ENABLED=0', go-sqlite3 requires cgo to work. This is a stub"
+2025-10-29T11:30:37.109+0530 [ERROR] enscrud: Failed to open db: EXTRA_VALUE_AT_END="Binary was compiled with 'CGO_ENABLED=0', go-sqlite3 requires cgo to work. This is a stub"
+2025-10-29T11:30:37.110+0530 [ERROR] enscrud: failed to create the app: err="Binary was compiled with 'CGO_ENABLED=0', go-sqlite3 requires cgo to work. This is a stub"
+2025-10-29T13:08:57.243+0530 [INFO]  enscrud: DB Opened
+2025-10-29T13:08:57.244+0530 [INFO]  enscrud.enswebserver: Starting Server at localhost:8080
+2025-10-29T13:08:57.260+0530 [INFO]  enscrud.enswebserver: Server running at : http://localhost:8080
+2025-10-29T14:53:57.158+0530 [INFO]  enscrud: DB Opened
+2025-10-29T14:53:57.159+0530 [INFO]  enscrud.enswebserver: Starting Server at localhost:8080
+2025-10-29T15:14:25.067+0530 [INFO]  enscrud: Shutting down...
+2025-10-29T15:14:30.156+0530 [INFO]  enscrud: Shutting down...
+2025-10-29T15:14:42.228+0530 [INFO]  enscrud: DB Opened
+2025-10-29T15:14:42.229+0530 [INFO]  enscrud.enswebserver: Starting Server at localhost:8080
+2025-10-29T15:14:42.244+0530 [INFO]  enscrud.enswebserver: Server running at : http://localhost:8080
+2025-10-29T15:45:18.352+0530 [INFO]  enscrud: DB Opened
+2025-10-29T15:45:18.352+0530 [INFO]  enscrud.enswebserver: Starting Server at localhost:8080
+2025-10-29T15:51:10.622+0530 [INFO]  enscrud: Shutting down...
+2025-10-29T15:51:18.372+0530 [INFO]  enscrud: Shutting down...
+2025-10-29T17:45:00.165+0530 [INFO]  enscrud: DB Opened
+2025-10-29T17:45:00.166+0530 [INFO]  enscrud.enswebserver: Starting Server at localhost:8080
+2025-10-29T17:45:00.178+0530 [INFO]  enscrud.enswebserver: Server running at : http://localhost:8080
+2025-10-29T17:53:43.412+0530 [INFO]  enscrud.enswebserver: User added successfully!
+2025-10-29T17:53:56.220+0530 [INFO]  enscrud.enswebserver: User added successfully!
+2025-10-29T17:54:15.981+0530 [INFO]  enscrud.enswebserver: User added successfully!
+2025-10-29T17:54:25.862+0530 [INFO]  enscrud.enswebserver: User added successfully!
+2025-10-29T17:55:26.524+0530 [INFO]  enscrud.enswebserver: User added successfully!
+2025-10-29T17:56:05.049+0530 [ERROR] enscrud.enswebserver: no such table: users
+2025-10-29T18:18:19.124+0530 [INFO]  enscrud: Shutting down...
+2025-10-29T18:19:46.024+0530 [INFO]  enscrud: DB Opened
+2025-10-29T18:19:46.030+0530 [INFO]  enscrud: Database migration completed successfully!
+2025-10-29T18:19:46.031+0530 [INFO]  enscrud.enswebserver: Starting Server at localhost:8080
+2025-10-29T18:19:46.060+0530 [INFO]  enscrud.enswebserver: Server running at : http://localhost:8080
+2025-10-29T18:22:15.639+0530 [INFO]  enscrud.enswebserver: User added successfully!
+2025-10-29T18:22:31.357+0530 [INFO]  enscrud.enswebserver: User added successfully!
+2025-10-29T18:22:48.301+0530 [INFO]  enscrud.enswebserver: User added successfully!
+2025-10-29T18:23:04.647+0530 [INFO]  enscrud.enswebserver: User added successfully!
+2025-10-29T18:33:43.397+0530 [ERROR] enscrud.enswebserver: record not found
+2025-10-29T18:38:28.203+0530 [INFO]  enscrud: Shutting down...
+2025-10-29T18:38:53.429+0530 [INFO]  enscrud: DB Opened
+2025-10-29T18:38:53.433+0530 [INFO]  enscrud: Database migration completed successfully!
+2025-10-29T18:38:53.433+0530 [INFO]  enscrud.enswebserver: Starting Server at localhost:8080
+2025-10-29T18:38:53.448+0530 [INFO]  enscrud.enswebserver: Server running at : http://localhost:8080
+2025-10-29T18:39:42.890+0530 [INFO]  enscrud.enswebserver: User added successfully!
+2025-10-29T18:40:00.110+0530 [INFO]  enscrud.enswebserver: User added successfully!
+2025-10-29T18:41:04.545+0530 [ERROR] enscrud.enswebserver: record not found
+2025-10-29T19:07:24.029+0530 [INFO]  enscrud: Shutting down...
+2025-10-29T19:08:04.828+0530 [INFO]  enscrud: DB Opened
+2025-10-29T19:08:04.834+0530 [INFO]  enscrud: Database migration completed successfully!
+2025-10-29T19:08:04.834+0530 [INFO]  enscrud.enswebserver: Starting Server at localhost:8080
+2025-10-29T19:08:04.857+0530 [INFO]  enscrud.enswebserver: Server running at : http://localhost:8080
+2025-10-29T19:09:40.040+0530 [INFO]  enscrud: Shutting down...
+2025-10-29T19:09:44.793+0530 [INFO]  enscrud: DB Opened
+2025-10-29T19:09:44.794+0530 [INFO]  enscrud: Database migration completed successfully!
+2025-10-29T19:09:44.795+0530 [INFO]  enscrud.enswebserver: Starting Server at localhost:8080
+2025-10-29T19:09:44.817+0530 [INFO]  enscrud.enswebserver: Server running at : http://localhost:8080
+2025-10-29T19:10:06.111+0530 [INFO]  enscrud: Shutting down...
+2025-10-29T19:11:14.572+0530 [INFO]  enscrud: DB Opened
+2025-10-29T19:11:14.573+0530 [INFO]  enscrud: Database migration completed successfully!
+2025-10-29T19:11:14.573+0530 [INFO]  enscrud.enswebserver: Starting Server at localhost:8080
+2025-10-29T19:11:14.586+0530 [INFO]  enscrud.enswebserver: Server running at : http://localhost:8080
+2025-10-29T19:13:09.336+0530 [INFO]  enscrud.enswebserver: User added successfully!
+2025-10-29T19:13:21.748+0530 [INFO]  enscrud.enswebserver: User added successfully!
+2025-10-29T19:13:36.292+0530 [INFO]  enscrud.enswebserver: User added successfully!
+2025-10-29T19:13:50.979+0530 [INFO]  enscrud.enswebserver: User added successfully!
+2025-10-29T19:15:38.671+0530 [ERROR] enscrud.enswebserver: record not found
+2025-10-29T19:23:41.133+0530 [ERROR] enscrud.enswebserver: record not found
+2025-10-29T21:00:09.243+0530 [INFO]  enscrud: Shutting down...
+2025-10-29T21:05:15.571+0530 [INFO]  enscrud: DB Opened
+2025-10-29T21:05:15.575+0530 [INFO]  enscrud: Database migration completed successfully!
+2025-10-29T21:05:15.576+0530 [INFO]  enscrud.enswebserver: Starting Server at localhost:8080
+2025-10-29T21:05:15.590+0530 [INFO]  enscrud.enswebserver: Server running at : http://localhost:8080
+2025-10-29T21:10:09.137+0530 [INFO]  enscrud.enswebserver: User added successfully!
+2025-10-29T21:10:22.054+0530 [INFO]  enscrud.enswebserver: User added successfully!
+2025-10-29T21:10:36.123+0530 [INFO]  enscrud.enswebserver: User added successfully!
+2025-10-29T21:10:50.504+0530 [INFO]  enscrud.enswebserver: User added successfully!
+2025-10-29T21:11:02.614+0530 [INFO]  enscrud.enswebserver: User added successfully!
+2025-10-29T21:12:09.523+0530 [INFO]  enscrud.enswebserver: User updated successfully!
+2025-10-29T21:14:13.669+0530 [INFO]  enscrud.enswebserver: User added successfully!
+2025-10-29T21:14:26.449+0530 [INFO]  enscrud.enswebserver: User added successfully!
+2025-10-29T21:16:03.105+0530 [INFO]  enscrud.enswebserver: User deleted successfully!
+2025-10-29T21:21:21.352+0530 [INFO]  enscrud: Shutting down...
+2025-10-29T21:22:12.542+0530 [INFO]  enscrud: DB Opened
+2025-10-29T21:22:12.543+0530 [INFO]  enscrud: Database migration completed successfully!
+2025-10-29T21:22:12.544+0530 [INFO]  enscrud.enswebserver: Starting Server at localhost:8080
+2025-10-29T21:22:12.560+0530 [INFO]  enscrud.enswebserver: Server running at : http://localhost:8080
